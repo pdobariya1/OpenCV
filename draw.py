@@ -10,7 +10,7 @@ blank = np.zeros((500, 500, 3), dtype=np.uint8)  # (height, width, color_channel
 # cv2.imshow('Red', blank)
 
 # 2. Draw a Rectangle
-cv2.rectangle(img=blank, pt1=(0, 0), pt2=(250, 150), color=(0, 0, 255), thickness=cv2.FILLED)
+cv2.rectangle(img=blank, pt1=(0, 0), pt2=(250, 150), color=(0, 0, 255), thickness=2)
 cv2.imshow('Rectangle', blank)
 
 # 3. Draw a Circle
